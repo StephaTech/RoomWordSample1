@@ -10,7 +10,7 @@ import androidx.room.PrimaryKey;
 @Entity(tableName = "word_table")
 public class Word {
 
-    @PrimarKey
+    @PrimaryKey
     @NonNull
     @ColumnInfo(name = "word")
     private String mWord;
